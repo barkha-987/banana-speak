@@ -1,12 +1,11 @@
-
-
- var btnTranslate = document.querySelector("#btnprimary");
+ var btnTranslate = document.querySelector("#btn-primary");
  console.log(btnTranslate);
+
 // btntranslator.addEventListener("click",function clickEventHandler(){
 //     console.log("clicked");
 // })
 // var stu = prompt("what is your name:-");
-// obclick.alert("welcome"+stu+"#oktxt".value);
+// onclick.alert("welcome"+stu+"#oktxt".value);
 
 
 

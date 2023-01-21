@@ -1,4 +1,12 @@
+
  var btnTranslate = document.querySelector("#btn-primary");
- Console.log(btnTranslate);
+    // console.log(btnTranslate);
+   var input = btnTranslate.addEventListner("click",function addedEvents(){
+    console.log("clicked");
+   })
+console.log(input);
+
+
+
 
 

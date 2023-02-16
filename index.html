@@ -8,17 +8,29 @@
          margin: 1rem;
          display: block;
          padding: 2rem;
+    
             
         }
         #translate{
-            width:50%;
+            width:80%;
             height:4rem;
-            border:solid black ;
+            border:solid black 1px ;
         }
+        button{
+            background-color: rgb(223, 223, 35);
+            width: 20%;
+            height: 20%;}
+        
     </style>
     </head>
 <body>
 <textarea placeholder="welcome,please write something" id="txtarea"></textarea>
+<select id="selectlang">
+    <option  id="language1">Minion</option>
+    <option  id="language2">jive</option>
+    <option  id="language3">Romulan</option>
+    <option  id="language4">fudd</option>
+</select>
 <button id="btn-trans">translate</button>
 <div>your translation is here 👇</div>
 <div id = "translate"></div>
